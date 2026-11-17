@@ -625,7 +625,9 @@
 
   <section class="hero" style="padding:0;">
     <div class="hero-media">
-      <div class="hero-slides" id="heroSlides">
+      <!-- Placeholder hero video. Replace hero.mp4 with the final reel. The 3-slide carousel below is hidden while this is in place. -->
+      <video id="heroVideo" src="hero.mp4" poster="hero-poster.jpg" autoplay muted loop playsinline preload="auto"></video>
+      <div class="hero-slides" id="heroSlides" style="display:none;">
         <div class="hero-slide" style="background: linear-gradient(160deg, #3a2408, #1a1204);" data-label="Hero slide 1 — swap for your render"></div>
         <div class="hero-slide" style="background: linear-gradient(160deg, #0c1c2e, #050a12);" data-label="Hero slide 2 — swap for your render"></div>
         <div class="hero-slide" style="background: linear-gradient(160deg, #2e0c14, #150508);" data-label="Hero slide 3 — swap for your render"></div>
@@ -640,7 +642,7 @@
         <button class="btn-ghost" data-open="video" data-video-title="Vescair Season 04 Reel"><span class="play">▶</span> Watch the Reel</button>
       </div>
     </div>
-    <div class="hero-controls" id="heroControls">
+    <div class="hero-controls" id="heroControls" style="display:none;">
       <button class="hero-pause" id="heroPauseBtn">❚❚</button>
       <div class="hero-dots" id="heroDots">
         <button class="on" data-i="0" aria-label="Slide 1"><i class="fill"></i></button><button data-i="1" aria-label="Slide 2"><i class="fill"></i></button><button data-i="2" aria-label="Slide 3"><i class="fill"></i></button>
